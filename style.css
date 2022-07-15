@@ -1,0 +1,156 @@
+body {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+div#theproblemlink,
+div#ppclink,
+div#theteamlink {
+  position: relative;
+  top: -84px;
+}
+.header {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background-color: #007765;
+  height: 84px;
+  text-align: center;
+}
+.logo {
+  float: left;
+  padding-top: 22px;
+  padding-bottom: 19px;
+}
+.navmenu {
+  float: right;
+  font: 24px/28px "Roboto", sans-serif;
+  padding-top: 29px;
+  padding-bottom: 26px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+.jumbotron {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  background-image: url("/Stepik/Figma try/img/imgjumbotron.png");
+  background-size: cover;
+  background-position: center center;
+}
+.jumbotext {
+  font: normal 72px/84px "Roboto", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+.problem {
+  padding-top: 48px;
+  padding-bottom: 92px;
+  background-color: #eee;
+}
+.theproblemtext {
+  color: #007765;
+  font: normal 64px/75px "Roboto", sans-serif;
+  text-align: center;
+  padding-bottom: 16px;
+}
+.theproblemtext2 {
+  font: normal 32px/37px "Roboto", sans-serif;
+  text-align: left;
+}
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url("https://i.ibb.co/PM6cMBn/image.png");
+  background-size: cover;
+  background-position: center center;
+}
+.herotext {
+  font: italic normal 48px/56.25px "Roboto", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+.ppc {
+  padding-top: 48px;
+  padding-bottom: 92px;
+  background-color: #fff;
+  color: #000;
+}
+.ppctext {
+  color: #007765;
+  font: normal 64px/75px "Roboto", sans-serif;
+  text-align: center;
+  padding-bottom: 16px;
+}
+.ppctext2 {
+  font: normal 32px/38px "Roboto", sans-serif;
+  padding-bottom: 40px;
+}
+.ppclogo {
+  float: left;
+  padding-right: 48px;
+  padding-bottom: 35px;
+  width: 115px;
+  height: 115px;
+}
+.ppctext3 {
+  font: normal 32px/38px "Roboto", sans-serif;
+}
+.team {
+  background-color: #eee;
+  padding-top: 58px;
+  padding-bottom: 84px;
+}
+.teamtext {
+  text-align: center;
+  padding-bottom: 32px;
+  color: #007765;
+  font: normal 64px/75px "Roboto", sans-serif;
+}
+p {
+  margin: 0;
+  text-align: center;
+}
+.team img {
+  padding: 24px 91px 0px 91px;
+  width: 168px;
+  height: 168px;
+}
+.name {
+  padding: 12px 74px 0px 74px;
+  font: bold 24px/28px "Roboto", sans-serif;
+  color: #007765;
+}
+.position {
+  padding: 5px 0px 28px 0px;
+  font: italic 18px/21px "Roboto", sans-serif;
+  color: #000;
+}
+.photo {
+  margin-left: 30px;
+  display: inline-block;
+  height: 283px;
+  width: 350px;
+
+}
+.footer{
+  background-color: #000;
+}
+.footertext {
+  height: 64px;
+  padding-top: 50px;
+  padding-bottom: 62px;
+  color: #fff;
+  text-align: center;
+  font: normal 18px/21px "Roboto", sans-serif;
+}
